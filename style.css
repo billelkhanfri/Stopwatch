@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image: url("./images//dztourisme-parc-del-kala.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.overlay {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  align-items: center;
+  justify-content: center;
+}
+.inputs {
+  display: flex;
+
+  width: 400px;
+  align-items: center;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+.inputs input {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background-color: black;
+  border: 2px solid green;
+  color: white;
+  text-align: center;
+  font-size: 32px;
+}
+.buttons {
+  display: flex;
+
+  width: 400px;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.buttons button {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  cursor: pointer;
+  opacity: 0.8;
+}
+.buttons button:hover {
+  opacity: 2;
+}
+.buttons :nth-child(1) {
+  background-color: rgba(0, 128, 0, 0.6);
+  border: 2px solid green;
+}
+.buttons :nth-child(2) {
+  background-color: hsl(37, 100%, 50%);
+  border: 2px solid green;
+}
+.buttons :nth-child(3) {
+  background-color: hsl(0, 0%, 5%);
+  border: 2px solid green;
+}
+.buttons :nth-child(4) {
+  background-color: hsl(0, 0%, 5%);
+  border: 2px solid green;
+}
+span {
+  color: white;
+  font-weight: 700;
+  font-size: 24px;
+}
